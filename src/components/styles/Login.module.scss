@@ -1,0 +1,97 @@
+/* src/components/Login.module.scss */
+.contenedorLogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #3B82F6, #9333EA);
+  }
+  
+  .cajaLogin {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+  
+  }
+  
+  .titulo {
+    font-size: 2rem;
+    color: #4A5568;
+    margin-bottom: 20px;
+  }
+  
+  .contenedorInput {
+  
+    margin-bottom: 15px;
+  }
+  
+  .campoInput {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #E2E8F0;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.2s;
+   
+  
+    &:focus {
+      border-color: #4A5568;
+    }
+  }
+  
+  .error {
+    color: #E53E3E;
+    font-size: 0.875rem;
+    margin-top: 5px;
+    text-align: left;
+  }
+  
+  .contenedorRecordar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  
+    label {
+      font-size: 0.875rem;
+      color: #4A5568;
+    }
+  
+    .olvidasteContraseña {
+      font-size: 0.875rem;
+      color: #9333EA;
+      text-decoration: none;
+  
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  
+  .mensajeError {
+    color: #E53E3E;
+    margin-bottom: 10px;
+    font-size: 0.875rem;
+  }
+  
+  .botonLogin, .botonReconocimientoFacial {
+    background-color: #9333EA;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+  
+    &:hover {
+      background-color: #7E22CE;
+    }
+  }
+  
